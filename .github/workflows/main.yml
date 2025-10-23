@@ -11,13 +11,13 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Git Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
 
     - name: Setup Nuget.exe
-      uses: nuget/setup-nuget@v1
+      uses: nuget/setup-nuget@v2.0.0
       
     - name: Publish VL Nuget
-      uses: vvvv/PublishVLNuget@1.0.41
+      uses: vvvv/PublishVLNuget@1.0.43
       with:
         nuspec: deployment\VL.SimpleHTTP.nuspec
         nuget-key: ${{ secrets.NUGET_KEY }}

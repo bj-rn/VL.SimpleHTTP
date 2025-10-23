@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>VL.SimpleHTTP</id>
-    <version>1.2.1</version>
-    <authors>sebescudie</authors>
+    <version>1.3.0</version>
+    <authors>sebescudie, bj-rn</authors>
     <owners>sebescudie</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">GPL-3.0-or-later</license>
@@ -11,9 +11,9 @@
     <description>Simple HTTP nodes for the VL programming language </description>
     <summary>Simple HTTP nodes for the VL programming language </summary>
     <language>en-US</language>
-    <tags>vl http query</tags>
+    <tags>vl vvvv http query</tags>
     <dependencies>
-      <dependency id="RestSharp" version="[106.15.0]" />
+      <dependency id="RestSharp" version="[112.1.0]" />
     </dependencies>
   </metadata>
   <files>
